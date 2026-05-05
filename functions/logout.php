@@ -1,8 +1,6 @@
 <?php
-session_start();
-session_unset(); // Remove all session variables
-session_destroy(); // Destroy the session
+require_once '../core/autoloader.php';
+use Controllers\AuthController;
 
-header("Location: ../pages/login.php"); // Redirect to login page
-exit();
-?>
+$controller = new AuthController();
+$controller->logout();

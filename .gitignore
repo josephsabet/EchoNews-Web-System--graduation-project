@@ -1,0 +1,23 @@
+# === Credentials & Environment ===
+.env
+
+# === Database Exports (may contain real data) ===
+*.sql
+*.sql.gz
+
+# === Uploaded user files ===
+uploads/*
+!uploads/.gitkeep
+
+# === Cache files (may contain translated user content) ===
+core/translation_cache.json
+
+# === OS / Editor junk ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# === XAMPP-specific ===
+db.php
