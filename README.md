@@ -1,4 +1,4 @@
-# 📰 EchoNews — Editorial News Platform
+# 📰 EchoNews - Editorial News Platform
 
 > A premium, bilingual editorial news management system built with PHP (MVC architecture), MySQL, and vanilla CSS.
 
